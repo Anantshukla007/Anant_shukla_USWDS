@@ -1,0 +1,152 @@
+/* Custom CSS for Header */
+.custom-header {
+  background-color: #BF0D3E; /* Dark blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.usa-logo__text {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.custom-signup {
+  background-color: #0071BC; /* Blue background */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.custom-signup:hover {
+  background-color: #005ea2;
+}
+
+.custom-link {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/* Main content styling */
+.main-content {
+  background-color: #0A3161;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  min-height: 70vh; /* Increased height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coming-soon h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.info-text {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.notify-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.notify-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email-label {
+  font-size: 1rem;
+}
+
+.email-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #0071BC;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.notify-button {
+  background-color: #D32F2F; /* Red button */
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.notify-button:hover {
+  background-color: #B71C1C; /* Darker red for hover */
+}
+
+/* Footer styling */
+.custom-footer {
+  background-color: #f0f0f0; /* Light gray background for contrast */
+  color: #333; /* Dark gray text color for readability */
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  height: 20vh; /* Increased height to ensure it touches the bottom of the screen */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 0.875rem;
+  margin-top: 0;
+}
+
+/* Ensuring the entire page takes up the full viewport */
+body, html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.usa-grid-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
